@@ -1,0 +1,10 @@
+/* WZ-2157 (v12): mappa vera (stesso file nel template e nell'anteprima). Contesto proprio, così i livelli di Leaflet restano sotto il Dettaglio. */
+.mk-map { isolation: isolate; font-family: var(--mk-font-body); }
+.mk-map .leaflet-control-attribution { background: var(--mk-surface); color: var(--mk-text); }
+.mk-map .leaflet-control-attribution a { color: var(--mk-primary); text-decoration: underline; }
+.mk-map .mk-pin { fill: var(--mk-primary); fill-opacity: 1; stroke: var(--mk-surface); }
+.mk-map .mk-pin-on { stroke: var(--mk-text); stroke-width: 3px; }
+/* WZ-2158 (v12): il punto ha il colore della riga evidenziata (regole di riga). */
+.mk-map .mk-pin-danger { fill: var(--mk-danger); } .mk-map .mk-pin-warning { fill: #d97706; } .mk-map .mk-pin-success { fill: #15803d; } .mk-map .mk-pin-muted { fill: var(--mk-muted); }
+.mk-map .mk-pin-red { fill: var(--mk-c-red); } .mk-map .mk-pin-orange { fill: var(--mk-c-orange); } .mk-map .mk-pin-yellow { fill: var(--mk-c-yellow); }
+.mk-map .mk-pin-green { fill: var(--mk-c-green); } .mk-map .mk-pin-purple { fill: var(--mk-c-purple); } .mk-map .mk-pin-gray { fill: var(--mk-c-gray); }

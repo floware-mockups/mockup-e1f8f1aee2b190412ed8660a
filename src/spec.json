@@ -1,0 +1,309 @@
+{
+  "title": "Agenda di udienze e scadenze legali",
+  "description": "Gestione inventata delle udienze e dei termini dei ricorsi per l’ufficio legale, con incarichi, tribunali e atti collegati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "agenda-legale",
+      "title": "Agenda legale",
+      "description": "Udienze e scadenze ravvicinate, organizzate per data e consultabili per stato e incaricato.",
+      "metrics": [
+        {
+          "label": "Eventi in agenda",
+          "value": "8"
+        },
+        {
+          "label": "Udienze",
+          "value": "4"
+        },
+        {
+          "label": "Termini in scadenza",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Ora",
+        "Tipo evento",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Tipo di atto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "12/06/2026",
+          "09:30",
+          "Udienza",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Ricorso",
+          "Confermato"
+        ],
+        [
+          "12/06/2026",
+          "11:00",
+          "Termine",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Memoria difensiva",
+          "Da verificare"
+        ],
+        [
+          "13/06/2026",
+          "10:15",
+          "Udienza",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Ricorso",
+          "Confermato"
+        ],
+        [
+          "14/06/2026",
+          "12:00",
+          "Termine",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Deposito documenti",
+          "In preparazione"
+        ],
+        [
+          "15/06/2026",
+          "09:00",
+          "Udienza",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Comparsa",
+          "Confermato"
+        ],
+        [
+          "16/06/2026",
+          "16:00",
+          "Termine",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Memoria difensiva",
+          "Da verificare"
+        ],
+        [
+          "17/06/2026",
+          "10:30",
+          "Udienza",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Ricorso",
+          "Rinviato"
+        ],
+        [
+          "18/06/2026",
+          "13:00",
+          "Termine",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Deposito documenti",
+          "In preparazione"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Ora",
+        "Tipo evento",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Tipo di atto",
+        "Stato"
+      ]
+    },
+    {
+      "id": "ricorsi-attivi",
+      "title": "Ricorsi attivi",
+      "description": "Elenco dei ricorsi seguiti dall’ufficio, con prossima udienza o scadenza e referente assegnato.",
+      "metrics": [
+        {
+          "label": "Ricorsi attivi",
+          "value": "6"
+        },
+        {
+          "label": "Con udienza fissata",
+          "value": "3"
+        },
+        {
+          "label": "Con termine imminente",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Numero ricorso",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Tipo di atto",
+        "Prossimo evento",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "RL-26-014",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Ricorso",
+          "Udienza",
+          "12/06/2026",
+          "Attivo"
+        ],
+        [
+          "RL-26-018",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Memoria difensiva",
+          "Termine",
+          "12/06/2026",
+          "Attivo"
+        ],
+        [
+          "RL-26-021",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Ricorso",
+          "Udienza",
+          "13/06/2026",
+          "Attivo"
+        ],
+        [
+          "RL-26-024",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Deposito documenti",
+          "Termine",
+          "14/06/2026",
+          "Attivo"
+        ],
+        [
+          "RL-26-027",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Comparsa",
+          "Udienza",
+          "15/06/2026",
+          "Attivo"
+        ],
+        [
+          "RL-26-031",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Memoria difensiva",
+          "Termine",
+          "16/06/2026",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Numero ricorso",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Tipo di atto",
+        "Prossimo evento",
+        "Data",
+        "Stato"
+      ]
+    },
+    {
+      "id": "termini-processuali",
+      "title": "Termini processuali",
+      "description": "Scadenze per deposito e adempimenti, con priorità operativa e ricorso di riferimento.",
+      "metrics": [
+        {
+          "label": "Termini registrati",
+          "value": "6"
+        },
+        {
+          "label": "Entro tre giorni",
+          "value": "3"
+        },
+        {
+          "label": "In preparazione",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Numero ricorso",
+        "Tipo di atto",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "12/06/2026",
+          "RL-26-018",
+          "Memoria difensiva",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Alta",
+          "Da verificare"
+        ],
+        [
+          "14/06/2026",
+          "RL-26-024",
+          "Deposito documenti",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Alta",
+          "In preparazione"
+        ],
+        [
+          "16/06/2026",
+          "RL-26-031",
+          "Memoria difensiva",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Media",
+          "Da verificare"
+        ],
+        [
+          "18/06/2026",
+          "RL-26-033",
+          "Deposito documenti",
+          "Foro di Nubi",
+          "Lumo Serra",
+          "Media",
+          "In preparazione"
+        ],
+        [
+          "20/06/2026",
+          "RL-26-036",
+          "Comparsa",
+          "Foro di Lumo",
+          "Vela Neri",
+          "Bassa",
+          "Da verificare"
+        ],
+        [
+          "22/06/2026",
+          "RL-26-039",
+          "Memoria difensiva",
+          "Foro di Vela",
+          "Nubi Riva",
+          "Media",
+          "In preparazione"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Numero ricorso",
+        "Tipo di atto",
+        "Tribunale",
+        "Avvocato incaricato",
+        "Priorità",
+        "Stato"
+      ]
+    }
+  ],
+  "layout": "agenda",
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
